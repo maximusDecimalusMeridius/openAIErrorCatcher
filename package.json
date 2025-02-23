@@ -1,0 +1,29 @@
+{
+  "name": "openaierrorcatcher",
+  "version": "1.0.0",
+  "description": "AI-powered error handling in Node.js using OpenAI GPT-4 for debugging suggestions.",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "node script.js",
+    "dev": "node --env-file=.env script.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "nodejs",
+    "error-handling",
+    "openai",
+    "debugging",
+    "gpt-4",
+    "automation"
+  ],
+  "author": "maximusDecimusMeridius",
+  "license": "MIT"
+}

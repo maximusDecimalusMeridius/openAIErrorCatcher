@@ -1,0 +1,63 @@
+# Node.js Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.example
+
+# Logs & Debug Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.log
+logs/
+*.log
+*.out
+*.err
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+
+# Editor & IDE Settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Build & Compiled Files
+dist/
+build/
+out/
+.tmp/
+.cache/
+
+# Dependency Tools
+.bower_components/
+.eslintcache
+.npm/
+.npmrc
+
+# Git & Version Control
+.git/
+.gitattributes
+
+# Testing & Coverage
+coverage/
+jest/
+*.lcov
+*.map
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.pid
